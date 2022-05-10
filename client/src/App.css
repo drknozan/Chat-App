@@ -1,0 +1,158 @@
+.container {
+    display: flex;
+    width: 90vw;
+    height: 90vh;
+    background-color: #1856b4;
+    border-radius: 1rem;
+}
+
+.users-bar {
+    height: 100%;
+    width: 20%;
+    border-radius: 1rem;
+    background-color: rgb(84, 175, 255);
+}
+
+.users-bar__user {
+    padding: .8rem;
+    color: rgb(242, 242, 242);
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+.chat-area {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-area__user-info {
+    height: 10%;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(242, 242, 242);
+    border-bottom: .8px solid rgba(242, 242, 242, 0.645);
+}
+
+.chat-area__user-info__writing {
+    color: rgb(242, 242, 242);
+    font-size: .8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.chat-area__messages {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+    overflow-y: scroll;
+    border-radius: 1rem;
+}
+
+.chat-area__messages__sent {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(242, 242, 242);
+    border-radius: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8rem;
+    overflow-wrap: break-word;
+    width: fit-content;
+    max-width: 40%;
+    align-self: flex-end;
+}
+
+.chat-area__messages__received {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(242, 242, 242);
+    border-radius: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8rem;
+    width: fit-content;
+    align-self: flex-start;
+}
+
+.chat-area__form {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-area__form__input {
+    width: 80%;
+    height: 40%;
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.chat-area__form__button {
+    width: 10%;
+    height: 40%;
+    margin-left: .5rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    color: rgb(100, 100, 100);
+}
+
+.register-container {
+    width: 90vw;
+    height: 90vh;
+    background-color: #1851b4;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.register-alert {
+    color: rgb(242, 242, 242);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8rem;
+}
+
+.register-form {
+    width: 25%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-input {
+    width: 70%;
+    height: 30%;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif bold;
+    text-align: center;
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+}
+
+.register-button {
+    width: 30%;
+    height: 25%;
+    margin-top: 1rem;
+    font-size: .8rem;
+    background-color: white;
+    border: none;
+    border-radius: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(100, 100, 100);
+}
